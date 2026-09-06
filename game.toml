@@ -1,0 +1,46 @@
+
+[game]
+name = "Final Fantasy VIII"
+id = "SLUS-00892"
+players = 1
+exe = "disc/SLUS_008.92"
+disc = "disc/Final Fantasy VIII (USA) (Disc 1).cue"
+load_address = "0x80010000"
+entry_pc = "0x80011534"
+text_size = "0x00190800"
+stack_base = "0x801FFFF0"
+discs = ["disc/Final Fantasy VIII (USA) (Disc 1).cue", "disc/Final Fantasy VIII (USA) (Disc 2).cue", "disc/Final Fantasy VIII (USA) (Disc 3).cue", "disc/Final Fantasy VIII (USA) (Disc 4).cue"]
+disc_serials = ["SLUS-00892", "SLUS-00908", "SLUS-00909", "SLUS-00910"]
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Final Fantasy VIII (USA) (Disc 1).bin"
+cue_name = "Final Fantasy VIII (USA) (Disc 1).cue"
+boot_exe = "SLUS_008.92"
+known_sizes = [732271680]
+known_md5 = ["50d5b62e81b5369f18c8a145af716af9"]
+known_sha1 = ["5028a4f815a50d6ffe16f9c3e44ec6235a81f3f5"]
+known_crc32 = ["2691d2de"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Final Fantasy VIII Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "9dd08e2b22ad97fd6be0efbb4ec7e8ae02abc8b4655df2ed279861b422f63434"

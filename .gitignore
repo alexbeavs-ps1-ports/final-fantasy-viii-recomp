@@ -1,0 +1,13 @@
+build*/
+dist/
+generated/
+disc/
+saves/
+_scratch/
+.cache/
+*.cfg
+settings.toml
+*.log
+*.mcd*
+*.mcr*
+__pycache__/

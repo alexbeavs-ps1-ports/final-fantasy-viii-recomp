@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.sh text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.txt text eol=lf
+seeds/* -text
+*.png binary
+*.ico binary

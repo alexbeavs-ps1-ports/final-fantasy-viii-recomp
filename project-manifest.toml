@@ -1,0 +1,29 @@
+[project]
+name = "Final Fantasy VIII"
+slug = "final-fantasy-viii"
+retail_id = "SLUS-00892"
+region = "USA"
+implementation_state = "release_candidate_prepared"
+
+[release]
+version = "0.1.0"
+status = "candidate"
+target_date = "2026-09-07"
+
+[framework]
+repository = "https://github.com/Alexbeav/psxrecomp"
+commit = "98627d3f8728c8404c1dd4f36e6ced2dbbe84b03"
+tree = "6cb12bdae7cd92bb6be7c56210119515957e1a4f"
+recomp_ui_commit = "4eda65430a431e5685ae0c515ebcd912c7843bff"
+accepted_private_commit = "63446a28111a21a0cb7e8b5106c3614c898fc4b5"
+
+[bios]
+required = true
+profile = "SCPH5552"
+size = 524288
+sha256 = "1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09"
+
+[validation]
+windows_package = "not_run"
+linux_gameplay = "not_run"
+macos_gameplay = "not_run"

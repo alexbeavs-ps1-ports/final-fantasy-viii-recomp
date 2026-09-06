@@ -1,0 +1,81 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Final Fantasy VIII (USA) (Disc 1).cue",
+      "bin_name": "Final Fantasy VIII (USA) (Disc 1).bin",
+      "size": 732271680,
+      "md5": "50d5b62e81b5369f18c8a145af716af9",
+      "sha1": "5028a4f815a50d6ffe16f9c3e44ec6235a81f3f5",
+      "crc32": "2691d2de",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Final Fantasy VIII (USA) (Disc 1).bin",
+          "size": "732271680",
+          "crc": "2691d2de",
+          "md5": "50d5b62e81b5369f18c8a145af716af9",
+          "sha1": "5028a4f815a50d6ffe16f9c3e44ec6235a81f3f5"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "cue_name": "Final Fantasy VIII (USA) (Disc 2).cue",
+      "bin_name": "Final Fantasy VIII (USA) (Disc 2).bin",
+      "size": 692932128,
+      "md5": "2ae4e2022d376a0775e66369de96dc59",
+      "sha1": "2af26ce916c1b5bbb74fbacb0a8ca1a5171dc510",
+      "crc32": "e3eb68df",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Final Fantasy VIII (USA) (Disc 2).bin",
+          "size": "692932128",
+          "crc": "e3eb68df",
+          "md5": "2ae4e2022d376a0775e66369de96dc59",
+          "sha1": "2af26ce916c1b5bbb74fbacb0a8ca1a5171dc510"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "cue_name": "Final Fantasy VIII (USA) (Disc 3).cue",
+      "bin_name": "Final Fantasy VIII (USA) (Disc 3).bin",
+      "size": 721356048,
+      "md5": "58461d8ea573b990c7bbcc32d0feb8a8",
+      "sha1": "9417003499803d9a9c3d26783570a967b0e4fba2",
+      "crc32": "d38ee91e",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Final Fantasy VIII (USA) (Disc 3).bin",
+          "size": "721356048",
+          "crc": "d38ee91e",
+          "md5": "58461d8ea573b990c7bbcc32d0feb8a8",
+          "sha1": "9417003499803d9a9c3d26783570a967b0e4fba2"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "cue_name": "Final Fantasy VIII (USA) (Disc 4).cue",
+      "bin_name": "Final Fantasy VIII (USA) (Disc 4).bin",
+      "size": 694475040,
+      "md5": "5a83d022aa592d4e91c02943467d1fd6",
+      "sha1": "68a3e8e96eb63018f728014a8044959bcb1b2272",
+      "crc32": "6cfb6adf",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Final Fantasy VIII (USA) (Disc 4).bin",
+          "size": "694475040",
+          "crc": "6cfb6adf",
+          "md5": "5a83d022aa592d4e91c02943467d1fd6",
+          "sha1": "68a3e8e96eb63018f728014a8044959bcb1b2272"
+        }
+      ]
+    }
+  ]
+}
