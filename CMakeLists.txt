@@ -16,7 +16,7 @@ project(Final_Fantasy_VIII_Recompiled LANGUAGES C CXX)
 # Setup-host CI requires WIZARD_CMAKE_BLOCK / ENABLE_SETUP_WIZARD (FORCE_SETUP_HOST
 # alone does not open first-run / Generate & rebuild).
 set(PSX_RECOMP_UI ON CACHE BOOL "Shared launcher" FORCE)
-set(PSX_DEBUG_TOOLS OFF CACHE BOOL "Production build" FORCE)
+set(PSX_DEBUG_TOOLS OFF CACHE BOOL "Production build")
 set(PSX_STATIC_RUNTIME ON CACHE BOOL "Portable runtime" FORCE)
 set(PSX_ENABLE_VULKAN ON CACHE BOOL "Vulkan renderer" FORCE)
 set(PSX_NETPLAY OFF CACHE BOOL "Accepted offline release" FORCE)
