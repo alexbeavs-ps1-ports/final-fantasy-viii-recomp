@@ -17,13 +17,28 @@ out_dir = "disc"
 bin_name = "Final Fantasy VIII (USA) (Disc 1).bin"
 cue_name = "Final Fantasy VIII (USA) (Disc 1).cue"
 boot_exe = "SLUS_008.92"
-known_sizes = [732271680]
-known_md5 = ["50d5b62e81b5369f18c8a145af716af9"]
-known_sha1 = ["5028a4f815a50d6ffe16f9c3e44ec6235a81f3f5"]
-known_crc32 = ["2691d2de"]
+known_sizes = [732271680, 692932128, 721356048, 694475040]
+known_md5 = [
+  "50d5b62e81b5369f18c8a145af716af9",
+  "2ae4e2022d376a0775e66369de96dc59",
+  "58461d8ea573b990c7bbcc32d0feb8a8",
+  "5a83d022aa592d4e91c02943467d1fd6",
+]
+known_sha1 = [
+  "5028a4f815a50d6ffe16f9c3e44ec6235a81f3f5",
+  "2af26ce916c1b5bbb74fbacb0a8ca1a5171dc510",
+  "9417003499803d9a9c3d26783570a967b0e4fba2",
+  "68a3e8e96eb63018f728014a8044959bcb1b2272",
+]
+known_crc32 = [
+  "2691d2de",
+  "e3eb68df",
+  "d38ee91e",
+  "6cfb6adf",
+]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true

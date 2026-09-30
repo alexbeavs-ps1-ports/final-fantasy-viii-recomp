@@ -1,8 +1,12 @@
 # Final Fantasy VIII Recompiled
 
 This release candidate uses PSXRecomp and the shared recomp-ui launcher.
-You must supply your own SLUS-00892 game disc and SCPH-5502/5552 Europe BIOS.
+You must supply your own SLUS-00892 game disc and SCPH-1001 (USA) BIOS.
 The package contains no game disc, retail BIOS, generated retail game code, or saved game.
+
+<!-- release-standard:bios -->
+**BIOS:** SCPH-1001 (USA) retail BIOS, 524288 bytes, SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`. Supply your own dump; releases do not use OpenBIOS.
+<!-- /release-standard:bios -->
 
 ## Setup
 
@@ -14,7 +18,7 @@ The package contains no game disc, retail BIOS, generated retail game code, or s
 On Windows, the setup wizard can download the portable build tools.
 On Linux and macOS, install CMake, Ninja, Python 3, and a C/C++ compiler first.
 Keep the CUE and all files it references together.
-The BIOS must be 524288 bytes with SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`.
+The BIOS must be 524288 bytes with SHA-256 `71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3`.
 
 ## Candidate status
 

@@ -19,11 +19,15 @@ accepted_private_commit = "63446a28111a21a0cb7e8b5106c3614c898fc4b5"
 
 [bios]
 required = true
-profile = "SCPH5552"
+profile = "SCPH1001"
 size = 524288
-sha256 = "1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09"
+sha256 = "71af94d1e47a68c11e8fdb9f8368040601514a42a5a399cda48c7d3bff1e99d3"
 
 [validation]
 windows_package = "not_run"
 linux_gameplay = "not_run"
 macos_gameplay = "not_run"
+
+[retail_identity]
+disc_count = 4
+serials = ["SLUS-00892", "SLUS-00908", "SLUS-00909", "SLUS-00910"]
