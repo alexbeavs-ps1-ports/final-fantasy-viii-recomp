@@ -46,6 +46,7 @@ strict = true
 [runtime]
 window_title = "Final Fantasy VIII Recompiled"
 memcard_dir = "saves"
+bios_hle = true
 openbios = false
 overlay_cache = true
 
