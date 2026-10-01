@@ -47,6 +47,7 @@ strict = true
 window_title = "Final Fantasy VIII Recompiled"
 memcard_dir = "saves"
 openbios = false
+overlay_cache = true
 
 [video]
 renderer = "opengl"
