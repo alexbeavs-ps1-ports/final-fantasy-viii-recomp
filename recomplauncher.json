@@ -1,0 +1,30 @@
+{
+  "$schema": "https://recomplauncher.com/schema/recomplauncher.json",
+  "format": 1,
+  "name": "Final Fantasy VIII Recompiled",
+  "repo": "alexbeavs-ps1-ports/final-fantasy-viii-recomp",
+  "start": {
+    "program": ["Final_Fantasy_VIII_Recompiled.exe", "Final_Fantasy_VIII_Recompiled"]
+  },
+  "saves": ["{install}/saves"],
+  "folders": {
+    "saves": [{ "path": "{install}/saves" }]
+  },
+  "settings": [
+    {
+      "id": "renderer",
+      "label": "Graphics",
+      "in": "args",
+      "help": "How the game draws. The game's own pick is OpenGL. Vulkan or Software can help if the picture looks wrong.",
+      "choices": [
+        { "label": "Game's option", "args": [] },
+        { "label": "OpenGL", "args": ["--renderer", "opengl"] },
+        { "label": "Vulkan", "args": ["--renderer", "vulkan"] },
+        { "label": "Software", "args": ["--renderer", "software"] }
+      ]
+    }
+  ],
+  "actions": [
+    { "id": "saves", "label": "Saves", "help": "Your memory card saves.", "open": "saves" }
+  ]
+}

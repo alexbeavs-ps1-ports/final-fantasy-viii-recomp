@@ -2,6 +2,8 @@
 
 # Final Fantasy VIII Recompiled
 
+<a href="https://recomplauncher.com/game/final-fantasy-viii-recomp"><picture><source media="(prefers-color-scheme: dark)" srcset="https://recomplauncher.com/assets/press/launcher/badge-light.svg"><img alt="Get it on RecompLauncher" src="https://recomplauncher.com/assets/press/launcher/badge-dark.svg" height="48"></picture></a>
+
 This release candidate uses PSXRecomp and the shared recomp-ui launcher.
 You must supply your own SLUS-00892 game disc and SCPH-1001 (USA) BIOS.
 The package contains no game disc, retail BIOS, generated retail game code, or saved game.

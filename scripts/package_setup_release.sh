@@ -92,6 +92,7 @@ exec bash "${PACKAGER}" \
   --project-file CMakeLists.txt \
   --project-file project-manifest.toml \
   --project-file game.toml \
+  --project-file recomplauncher.json \
   --project-file VERSION \
   --project-file codegen_setup.c \
   --project-file codegen_setup.h \
